@@ -92,7 +92,7 @@
 
                 print json_encode(array("success"=>true, "msg"=>"Iniciando sesión..."));
             }else{
-                print json_encode(array("success"=>false, "msg"=>"Error al intentar iniciar sesión, intente más tarde."));
+                print json_encode(array("success"=>false, "msg"=>"Usuario o contraseña incorrectos, intente de nuevo."));
             }
             
         }else{
