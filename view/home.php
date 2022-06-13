@@ -64,10 +64,10 @@ if ($_SESSION['id_usuario'] == '') {
 					const myChart = new Chart(ctx, {
 					    type: 'bar',
 					    data: {
-					        labels: ['Rojos', 'Amarillos', 'Azules'],
+					        labels: ['Rojos', 'Azules', 'Amarillos'],
 					        datasets: [{
 					            label: '# de usuarios',
-					            data: [data.rojos, data.amarillos, data.azules],
+					            data: [data.rojos, data.azules, data.amarillos],
 					            backgroundColor: [
 					                'rgba(255, 99, 132, 0.2)',
 					                'rgba(54, 162, 235, 0.2)',
